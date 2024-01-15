@@ -1,0 +1,93 @@
+.body{
+    font-family: 'Mulish', sans-serif;
+}
+/* banner */
+.banner{
+    width: 1170px;
+    padding: 150px 135px 100px 135px;
+    margin: auto;
+    background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-color: gray;
+ background-blend-mode: multiply;
+    border-radius: 0px 0px 10px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner-title{
+    color: #FFF;
+padding-top: -50px;
+    
+    font-size: 64px;
+    
+    font-weight: 800;
+    
+}
+.all-des{
+    color: #FFF;
+
+text-align: center;
+
+font-size: 16px;
+margin-bottom: 50px;
+font-weight: 400;
+line-height: 26px;
+}
+.banner-div{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding:10px ;
+}
+.input1{
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+.input2{
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+}
+.input3{
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+background: #FFF;
+border: none;
+}
+.svg{
+    position: relative;
+    margin-left: -50px;
+    
+}
+/* .search{
+    position: relative;
+     margin-left: -50px;
+} */
+.find-btn{
+    border-radius: 8px;
+background: #FF5400;
+padding: 10px 34px 10px 67px;
+border: none;
+color: white;
+}
+
+
+
+
+
+
+
+/* resposnsive  */
+
+@media screen and (max-width: 576px) {
+    body{
+        width: auto;
+    }
+    .banner-div{
+        flex-direction: column;
+    }
+}
