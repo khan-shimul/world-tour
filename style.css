@@ -75,9 +75,53 @@ border: none;
 color: white;
 }
 
+.footer-sec{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+.img-div{
+    display: flex;
+    gap: 15px;
+    padding-top: 100px;
+    justify-content: center;
+}
+.footer-title{
+    color: var(--Dark-01, #131318);
 
 
+font-size: 32px;
 
+font-weight: 800;
+
+}
+.footer-span{
+    color: #FF5400;
+
+font-size: 32px;
+
+font-weight: 800;
+
+}
+
+.footer-des{
+    color: #5A5A5D;
+    font-size: 16px;
+padding-top: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.hr{
+    margin: 50px 284px;
+
+}
+.copy{
+    color: #131318;
+font-size: 16px;
+
+font-weight: 300;
+padding: 50px;
+}
 
 
 
