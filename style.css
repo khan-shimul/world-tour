@@ -1,6 +1,9 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+.hide{
+    display:none;
+}
 
 /* nav */
 .nav-sec{
@@ -141,17 +144,20 @@ color: white;
 .tour-sec{
     width: 1170px;
     margin: 150px auto;
+   
+    
 }
 .tour-div{
     display: flex;
     gap: 70px;
+    
 }
 
 .tour-title{
     color: #131318;
 
 
-
+   
 font-size: 40px;
 
 font-weight: 800;
@@ -291,6 +297,7 @@ margin-left: 300px;
 .newsletter{
     width: 1170px;
     margin: 150px auto;
+    
 }
 .news-div{
     display: flex;
@@ -408,30 +415,48 @@ padding: 50px;
     body{
         width: auto;
     }
-   
-    .banner-div{
-        flex-direction: column;
-    }
-    .banner{
+    /* nav */
+    .nav-sec{
         width: 100%;
     }
-    .flex-div1{
-        flex-direction: column;
+    .a a{
+        display: none;
     }
-    .flex-div1 div{
-        width: 100%;
+    .nav-svg{
+        display: block;
     }
-    .news-div{
-flex-direction: column;
-    }
-    .input-div{
-        padding: 3px;
-    }
-    .hr2{
-        margin-right: 500px;
-    }
+   /* tours */
+.tour-sec{
+    width:100%;
     
-.travel-div{
-    position: fixed;
 }
+
+   .tour-div{
+    flex-direction: column;
+   }
+   
+   .tour-img{
+    width: 100%;
+   }
+
+   /* news */
+   .newsletter{
+    width: 100%;
+   }
+   .news-div{
+    flex-direction: column;
+   }
+   .travel-div{
+    position:relative;
+    transform: rotate(+60.628deg);
+    margin-left: 412px;
+   }
+   .news-img{
+    width: 100%;
+   }
+   /* footer */
+   .footer-des{
+    padding-left: 20px;
+    padding-right: 20px;
+   }
 }
