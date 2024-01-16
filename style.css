@@ -1,5 +1,6 @@
 body{
     font-family: 'Mulish', sans-serif;
+    
 }
 .hide{
     display:none;
@@ -342,19 +343,24 @@ padding: 16px 345px 16px 20px;
 
 .travel-div{
     width: 18%;
-transform: rotate(-19.628deg);
+transform: rotate(-30.628deg);
 padding: 5px;
 border-radius: 16px;
 background: #FF5400;
 color: white;
 text-align: center;
 position: relative;
-margin-left: 987px;
-margin-top: -158px;
+margin-left: 1000px;
+margin-top: -115px;
 }
 
-
-
+.h4{
+    margin-top: 1px;
+    margin-bottom: -20px;
+}
+.h3{
+    margin-bottom:-2px ;
+}
 
 
 
@@ -418,13 +424,40 @@ padding: 50px;
     /* nav */
     .nav-sec{
         width: 100%;
+      
     }
     .a a{
         display: none;
     }
     .nav-svg{
         display: block;
+        margin-right: 20px;
     }
+.nav-img-div{
+    margin-left: 20px;
+}
+    /* banner */
+.banner{
+    width:100%;
+   padding: 0px;
+   
+}
+.banner-div{
+    flex-direction: column;
+
+}
+.banner-div input{
+    margin-bottom: 7px;
+}
+.input1{
+    margin-left: 30px;
+}
+.input3{
+    margin-left: 10px;
+}
+.find-btn{
+    padding: 10px 77px 10px 77px;
+}
    /* tours */
 .tour-sec{
     width:100%;
@@ -439,6 +472,60 @@ padding: 50px;
     width: 100%;
    }
 
+   /* choose sec */
+   .choose-sec{
+    width: 100%;
+   }
+   .flex-div{
+    flex-direction: column;
+   }
+   .div3{
+    margin-left: 0px;
+    width: 85%;
+   }
+
+/* .destination */
+
+.destination{
+    width: 100%;
+}
+/* .flex-div1 div{
+    width: 100%;
+} */
+.flex1{
+    width: 100%;
+    background-size: 99%;
+}
+.flex2{
+    width: 100%;
+    background-size: 95%;
+}
+.flex3{
+    width: 100%;
+    background-size: 100%;
+}
+.flex4{
+    width: 100%;
+    background-size: 100%;
+}
+.flex5{
+    width: 100%;
+    background-size: 100%;
+}
+.flex6{
+    width: 100%;
+    background-size: 100%;
+}
+.flex7{
+    width: 100%;
+    background-size: 75%;
+    background-size: cover;
+    background-position: center;
+
+    padding: 132px 271px 133px 122px;
+   
+}
+
    /* news */
    .newsletter{
     width: 100%;
@@ -448,8 +535,11 @@ padding: 50px;
    }
    .travel-div{
     position:relative;
-    transform: rotate(+60.628deg);
-    margin-left: 412px;
+    transform: rotate(_60.628deg);
+    margin-left: 380px;
+    
+width: 30%;
+height: 40px;
    }
    .news-img{
     width: 100%;
