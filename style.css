@@ -1,6 +1,56 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+
+/* nav */
+.nav-sec{
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.parent-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-img-div{
+    display: flex;
+    gap: 15px;
+    
+    justify-content: center;
+}
+.nav-title{
+    color: var(--Dark-01, #131318);
+
+
+font-size: 32px;
+
+font-weight: 800;
+
+}
+.nav-span{
+    color: #FF5400;
+
+font-size: 32px;
+
+font-weight: 800;
+
+}
+.a a{
+    text-decoration: none;
+    font-size: 20px;
+   margin-left: 10px;
+   color: black;
+}
+
+.nav-svg{
+    display: none;
+}
+#active{
+    color:#FF5400!important; ;
+}
+
 /* banner */
 .banner{
     width: 1170px;
@@ -115,6 +165,76 @@ font-weight: 800;
     padding:14px 35px ;
 }
 
+
+
+
+
+/* destination */
+.destination{
+    width: 1200px;
+    margin: 150px auto; 
+}
+.flex-div1{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex1{
+    background-image: url(./Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+   padding: 132px 207px 133px 203px;
+   border-radius: 16px;
+  
+}
+.flex2{
+    background-image: url(./Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+   padding: 132px 210px 133px 210px;
+   border-radius: 16px;
+  
+}
+.flex3{
+    background-image: url(./Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+   padding: 125px 125px 126px 125px;
+   border-radius: 16px;
+  
+}
+.flex4{
+    background-image: url(./Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+   padding: 125px 120px 126px 120px;
+   border-radius: 16px;
+  
+}
+.flex5{
+    background-image: url(./Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+   padding: 125px 80px 126px 81px;
+   border-radius: 16px;
+  
+}
+.flex6{
+    background-image: url(./Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+   padding: 132px 166px 133px 165px;
+   border-radius: 16px;
+  
+}
+.flex7{
+    background-image: url(./Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+   padding: 132px 271px 133px 272px;
+   border-radius: 16px;
+  
+}
+
+.flex-div1 div{
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
 
 
 /* why choose */
@@ -288,10 +408,17 @@ padding: 50px;
     body{
         width: auto;
     }
+   
     .banner-div{
         flex-direction: column;
     }
     .banner{
+        width: 100%;
+    }
+    .flex-div1{
+        flex-direction: column;
+    }
+    .flex-div1 div{
         width: 100%;
     }
     .news-div{
