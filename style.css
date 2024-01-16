@@ -1,6 +1,6 @@
 body{
     font-family: 'Mulish', sans-serif;
-    
+    border: 2px solid red;
 }
 .hide{
     display:none;
@@ -241,6 +241,33 @@ font-weight: 800;
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
+}
+
+/* extra */
+.extra{
+    width: 1170px;
+    margin: 150px auto;
+}
+.extra-img{
+    width: 540px;
+height: 550px;
+border-radius: 10px;
+}
+.extra-div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.extra-des{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align:start;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
 }
 
 
@@ -524,6 +551,15 @@ padding: 50px;
 
     padding: 132px 271px 133px 122px;
    
+}
+
+/* extra */
+.extra{
+    width: 100%;
+}
+
+.extra-div{
+    flex-direction: column;
 }
 
    /* news */
